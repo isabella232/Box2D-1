@@ -1,0 +1,22 @@
+{
+  "name": "box2d",
+  "license": {
+    "type": "zlib"
+  },
+  "version": "2.3.2",
+  "summary": "Box2D is an open source C++ engine for simulating rigid bodies in 2D.",
+  "description": "Box2D is an open source C++ engine for simulating rigid bodies in 2D. Box2D is developed by Erin Catto and has the zlib license. While the zlib license does not require acknowledgement, we encourage you to give credit to Box2D in your product.",
+  "homepage": "http://www.cocos2d-iphone.org",
+  "authors": "Erin Catto",
+  "source": {
+    "git": "https://github.com/RobotsAndPencils/Box2D.git",
+    "tag": "v2.3.2"
+  },
+  "platforms": {     
+    "ios": "5.0"   
+  },
+  "source_files": "Box2D/**/*.{h,cpp}",
+  "exclude_files": ["Box2D/glew/**/*.{h,cpp}", "Box2D/glfw/**/*.{h,cpp}", "Box2D/HelloWorld/**/*.{h,cpp}", "Box2D/imgui/**/*.{h,cpp}", "Box2D/Testbed/**/*.{h,cpp}"],
+  "header_mappings_dir": "Box2D",
+  "requires_arc": false
+}
